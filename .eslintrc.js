@@ -3,6 +3,7 @@ module.exports = {
   extends: [ 'eslint-config-airbnb-base', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended' ],
   parser: '@typescript-eslint/parser',
   plugins: [ '@typescript-eslint' ],
+  ignorePatterns: [ '.eslintrc.js' ],
   rules: {
     'import/extensions': 'off',
     'no-use-before-define': 'off',
